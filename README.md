@@ -1,7 +1,7 @@
 # detect-emoji-support
 Detect support for emoji character sets.
 
-```
+```js
 const emojiSupport = require('detect-emoji-support');
 
 if (emojiSupport()) {
