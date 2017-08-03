@@ -1,0 +1,17 @@
+{
+  "name": "detect-emoji-support",
+  "version": "0.1.1",
+  "description": "Detect support for emoji character sets.",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danalloway/detect-emoji-support.git"
+  },
+  "keywords": ["detect", "emoji", "support"],
+  "author": "Dan Alloway <dan@micahsix.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danalloway/detect-emoji-support/issues"
+  },
+  "homepage": "https://github.com/danalloway/detect-emoji-support#readme"
+}
