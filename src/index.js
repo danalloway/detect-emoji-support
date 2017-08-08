@@ -2,11 +2,19 @@
 
 const detect = () => {
     if (detect.status === null) {
+        if (!window) {
+            return false;
+        }
+
         var pixelRatio = window.devicePixelRatio || 1;
         var offset = 12 * pixelRatio;
         var node = window.document.createElement('canvas');
 
         var ctx = node.getContext('2d');
+        if (!ctx) {
+            return false;
+        }
+
         ctx.fillStyle = '#f00';
         ctx.textBaseline = 'top';
         ctx.font = '32px Arial';
