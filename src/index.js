@@ -1,6 +1,6 @@
 'use strict';
 
-const detect = () => {
+function detect () {
     if (detect.status === null) {
         if (!window) {
             return false;
