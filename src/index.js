@@ -2,7 +2,7 @@
 
 function detect () {
     if (detect.status === null) {
-        if (!window) {
+        if (typeof window === 'undefined') {
             return false;
         }
 
