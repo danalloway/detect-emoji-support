@@ -1,8 +1,8 @@
 {
   "name": "detect-emoji-support",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Detect support for emoji character sets.",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danalloway/detect-emoji-support.git"
