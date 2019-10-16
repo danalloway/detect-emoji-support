@@ -10,4 +10,4 @@ if (emojiSupport()) {
 ```
 
 Detection code ported from the Modernizr library into a stand-alone package.
-https://github.com/Modernizr/Modernizr/blob/v3.5.0/feature-detects/emoji.js
+https://github.com/Modernizr/Modernizr/blob/master/feature-detects/emoji.js
